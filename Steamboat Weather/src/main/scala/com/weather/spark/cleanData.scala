@@ -68,10 +68,10 @@ object cleanData {
     removeM.show()
 
     //Output to a csv file for python analysis
-    /**removeM.coalesce(1)
+    removeM.coalesce(1)
       .write
       .option("header", true)
       .csv("/data/CleanedSteamboatWeather")
-    **/
+    
   }
 }
